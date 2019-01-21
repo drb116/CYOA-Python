@@ -1,4 +1,4 @@
 # CYOA-Python
-Choose your own adventure in Python
+Escape room built in Python
 
-This is really just a test for Git Hub.
+Basic escape room designed to test some different ideas in Python.
