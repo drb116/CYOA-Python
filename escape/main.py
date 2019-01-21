@@ -1,6 +1,5 @@
-from CYOA.Room import Room
-from CYOA.Item import Item
-from _operator import inv
+from escape.Room import Room
+from escape.Item import Item
 
 
 dining_room = Room("Dining Room")
