@@ -4,7 +4,7 @@ Created on Jan 20, 2019
 @author: drb116
 '''
 
-class Item:
+class Item(object):
     '''
     Item describes items found in various rooms and holds whether they are in the 
     user's inventory.
@@ -15,9 +15,11 @@ class Item:
         '''
         self.name = name
         self.location = location
-        self.user_owns = False
-        self.description = None
+        self.visible = True
+        self.lookat = None
+        self.use = None
+        self.lookunder = None
         
     def __str__(self):
-        return "There is a {}\n".format(self.name)
+        return "There is a {}.\n".format(self.name)
         

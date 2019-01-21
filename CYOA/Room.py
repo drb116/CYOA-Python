@@ -4,7 +4,7 @@ Created on Jan 20, 2019
 @author: drb116
 '''
 
-class Room:
+class Room(object):
     '''
     Holds details about a room and the connecting rooms
     '''
@@ -19,8 +19,8 @@ class Room:
         self.south = None
         self.west = None
         self.east = None
-        self.items = []
-    
+        self.items = {}
+        
     def __str__(self):
         for_return = "You are in the {}.\n".format(self.name)
         if self.north !=None:
