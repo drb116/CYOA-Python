@@ -43,14 +43,8 @@ def create_dining_room():
     table = Item("Table", dining_room)
     table.lookat = "There is a wood table. Something appears to be carved in it."
     table.use = "When you look closer at the table, you see a heart and with three letters carved in it:\n"\
-    "   xxx   xxx   \n"\
-    " xx   x x   xx \n"\
-    "x      x      x\n"\
-    " x   P.D.M   x \n"\
-    "  x         x  \n"\
-    "    x     x    \n"\
-    "      x x      \n"\
-    "       x       \n"
+    "   xxx   xxx   \n xx   x x   xx \nx      x      x\n x   P.D.M   x \n  x         x  \n"\
+    "    x     x    \n      x x      \n       x       \n"
     table.lookunder = "There are a few dust bunnies under the table. Where Roomba when you need it!"
     dining_room.items["table"] = table
     
