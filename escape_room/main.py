@@ -1,5 +1,5 @@
-from escape.Room import Room
-from escape.Item import Item
+from escape_room.Room import Room
+from escape_room.Item import Item
 
 
 dining_room = Room("Dining Room")
